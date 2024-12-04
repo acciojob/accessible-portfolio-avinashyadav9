@@ -7,9 +7,38 @@
 </head>
 
 <body>
+	<header>
+		<h1 role="heading"> My Accessible Portfolio</h1>
+	</header>
+	<nav role="navigation">
+		<ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+	</nav>
+	<section>
+        <img src="profile.jpg" alt="Profile picture of John Doe" role="img">
+        <p role="contentinfo">Hello, I'm John Doe, a web developer passionate about creating accessible websites. I aim to design user-friendly experiences for all, including individuals with disabilities.</p>
+    </section>
+
+    <!-- List of Projects -->
+    <section id="projects">
+        <h2 role="heading">Projects</h2>
+        <ul role="list">
+            <li role="listitem">Project 1: Accessible Website Design</li>
+            <li role="listitem">Project 2: ARIA Implementation in E-commerce</li>
+            <li role="listitem">Project 3: Cross-platform Web App</li>
+        </ul>
+    </section>
+
+    <!-- Footer (for Contact) -->
+    <footer id="contact" role="contentinfo">
+        <p>Contact me at <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
+    </footer>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
-</script>
+    </script>
 
 </body>
 
